@@ -1,10 +1,6 @@
 export GPG_TTY=$(tty)
-
-# export PS1="\e[1;36m\u@\h \W\$ \e[m"
-export GOPATH=/Users/nrobinson/go/
 export PS1="\[$(tput setaf 6)\]\[$(tput bold)\]\u\[$(tput sgr0)\]\[$(tput setaf 5)\]\[$(tput bold)\]@\[$(tput setaf 7)\]\[$(tput bold)\]\h:\[$(tput sgr0)\]\[$(tput setaf 4)\]\[$(tput bold)\]\w $ \[$(tput sgr0)\]"
 export EDITOR="nano"
-export SLACK_TOKEN='xoxp-11357575927-11361594817-23218270899-e32b2902c8'
 
 alias bash='/usr/local/Cellar/bash/4.3.33/bin/bash'
 alias spark="particle"
@@ -30,12 +26,8 @@ alias atom='open -a Atom'
 alias chrome='open -a Google\ Chrome'
 alias photon-update='sudo npm update -g particle-cli && particle update'
 
-alias mint="ssh mint-desktop.local"
-
 alias slack="node ~/terminal-slack/main.js"
 alias grep="grep --color=auto"
-alias weather="curl http://wttr.in/london"
-alias miner="ssh pi@10.0.1.253"
 
 alias elup="~/elup.sh"
 
